@@ -10,8 +10,6 @@ def geraGrafo():
 
 def largura():
     verticesVisitados = []
-    for i in grafo:
-        print(grafo[i])
 
     while(len(verticesVisitados) != len(grafo)):
         verticesVisitados.append('1')
