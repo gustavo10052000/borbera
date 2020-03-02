@@ -10,10 +10,9 @@ def geraGrafo():
 
 def largura():
     verticesVisitados = []
-
-    while(len(verticesVisitados) != len(grafo)):
-        verticesVisitados.append('1')
-        print('alo')
+    for vertice, adjacentes in grafo.keys():
+        print(vertice)
+        
 
 def profundidade():
     pass
