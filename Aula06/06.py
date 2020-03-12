@@ -1,11 +1,13 @@
-def perfect(n, f):
-    if(f > 0):
-        if(n % f == 0):
-            vetor.append(f)
-        perfect(n, f-1)
-    else:
-        print(vetor)
+def perfect(m):
+    if(m > 0):
+        if(n % m == 0 ):
+            vetor.append(m)
+        perfect(m-1)
+    print(vetor)
+    exit()
 
-global vetor
+
+global n, vetor
+n = 6
 vetor = []
-perfect(10, 10)
+perfect(n)
